@@ -1,3 +1,60 @@
-#heading{
-    color: red;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
 }
+
+.logoContainer{
+    margin-left: 20px;
+}
+
+.logo{  
+    width: 100px;
+}
+
+.nav-items> ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.nav-items> ul> li{
+ margin: 10px;
+}
+
+.rest-card{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-img{
+    width: 100%;
+    height: 180px;
+}
+
+.rest-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .food-details{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .res-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn{
+    margin: 10px;   
+  }
