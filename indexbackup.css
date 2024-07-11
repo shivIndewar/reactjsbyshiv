@@ -1,0 +1,121 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.logoContainer{
+    margin-left: 20px;
+}
+
+.logo{  
+    width: 100px;
+}
+
+.nav-items> ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.nav-items> ul> li{
+ margin: 10px;
+}
+
+.rest-card{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-img{
+    width: 100%;
+    height: 180px;
+}
+
+.rest-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .food-details{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .res-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn{
+    margin: 10px;   
+  }
+
+  .shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shimmer-card{
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: lightgrey;
+  }
+
+  .filter{
+    display: flex;
+  }
+
+  .search-box{
+    margin: 2px;
+  }
+
+.demo{
+    background: linear-gradient(rgb(255, 255, 255) -6.71%, rgb(235, 235, 242) 56.19%, rgb(223, 223, 231) 106.56%);
+    padding: 0px 16px 16px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+.inner{
+  border-radius: 20px;
+  border: 1px solid rgba(2, 6, 12, 0.15);
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+}
+
+.user-card{
+  width: 500px;
+  background: linear-gradient(rgb(255, 255, 255) -6.71%, rgb(235, 235, 242) 56.19%, rgb(223, 223, 231) 106.56%);
+  padding: 0px 16px 16px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+}
+
+.user-card-inner{
+  border-radius: 20px;
+  border: 1px solid rgba(2, 6, 12, 0.15);
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+}
+
+.top-margin{
+  margin: 10px;
+}
+
+.user-avtar{
+  width: 100px;
+  height: 100px;
+}
+
+.card-flex{
+  display: flex;
+}
