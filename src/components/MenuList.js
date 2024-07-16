@@ -1,8 +1,6 @@
 import { CDN_URL } from "../utils/constants";
 
 const MenuList = (props) => {
-    console.log(props);
-    debugger;
   return (
     <div classNameName="p-4 m-4">
             <div classNameName="text-xl font-extrabold">
